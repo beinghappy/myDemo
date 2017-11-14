@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.dashu.apiexample.HomePageActivity"
+    tools:showIn="@layout/activity_home_page">
+
+    <LinearLayout
+        android:id="@+id/container_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/scaleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scale"/>
+    <Button
+        android:id="@+id/alphaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alphaButton"/>
+    <Button
+        android:id="@+id/translateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="translateButton"/>
+    <Button
+        android:id="@+id/rotateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rotateButton"/>
+    <Button
+        android:id="@+id/setButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="setButton"/>
+    <Button
+        android:id="@+id/objectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Object(XML)"/>
+
+    <TextView
+        android:id="@+id/content_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/content_text" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

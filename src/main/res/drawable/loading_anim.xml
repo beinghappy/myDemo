@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    根标签为animation-list，其中oneshot代表着是否只展示一遍，设置为false会不停的循环播放动画
+    根标签下，通过item标签对动画中的每一个图片进行声明
+    android:duration 表示展示所用的该图片的时间长度
+ -->
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false"
+    >
+    <item android:drawable="@drawable/zm_l1" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l2" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l3" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l4" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l5" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l6" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l7" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l8" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l9" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l10" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l11" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l12" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l13" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l14" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l15" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l16" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l17" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l18" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l19" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l20" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l21" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l22" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l23" android:duration="50"></item>
+    <item android:drawable="@drawable/zm_l24" android:duration="50"></item>
+</animation-list>
